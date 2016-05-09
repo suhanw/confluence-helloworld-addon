@@ -1,6 +1,6 @@
 {
-    "key": "helloworld-confluence-addon",
-    "name": "Ping Pong",
+    "key": "confluence-helloworld-addon",
+    "name": "Hello World",
     "description": "My very first add-on",
     "vendor": {
         "name": "Angry Nerds",
@@ -22,32 +22,5 @@
         "READ"
     ],
     "modules": {
-        "generalPages": [
-
-            // JIRA - Add a Hello World menu item to the navigation bar
-            {
-                "key": "hello-world-page-jira",
-                "location": "system.top.navigation.bar",
-                "name": {
-                    "value": "Hello World"
-                },
-                "url": "/hello-world",
-                "conditions": [{
-                    "condition": "user_is_logged_in"
-                }]
-            },
-
-            // Confluence - Add a Hello World menu item to the navigation bar
-            {
-                "key": "hello-world-page-confluence",
-                "location": "system.header/left",
-                "name": {
-                    "value": "Hello World"
-                },
-                "url": "/hello-world",
-                "conditions": [{
-                    "condition": "user_is_logged_in"
-            }]
-        }]
     }
 }
