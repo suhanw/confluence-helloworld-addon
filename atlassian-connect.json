@@ -14,13 +14,18 @@
     "authentication": {
         "type": "jwt"
     },
-    "lifecycle": {
-        // atlassian-connect-express expects this route to be configured to manage the installation handshake
-        "installed": "/installed"
-    },
-    "scopes": [
-        "READ"
-    ],
+    "lifecycle": { "installed": "/installed"},
+    "scopes": [ "READ" ],
     "modules": {
+        "dynamicContentMacros": [
+            {
+                "key": "helloworld-macro",
+                "name": { "value": "Hello World Macro"},
+                "url": "/macro",
+                "description": { "value": "Says 'Hello World'." },
+                "outputType": "block",
+                "bodyType": "none"
+            }
+        ]
     }
 }
