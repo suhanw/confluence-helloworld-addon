@@ -71,8 +71,8 @@
       "context": {
         "time": "10 minutes",
         "directory": "routes",
-        "file": "index.js",
-        "routes_file_source": "temp_resources/route_snippet.js",
+        "file": "macro.js",
+        "routes_file_source": "./routes/macro.js",
         "macro_content":"macro_content_place_holder"
 
       }
