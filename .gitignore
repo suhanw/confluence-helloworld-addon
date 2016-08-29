@@ -5,3 +5,4 @@ node_modules
 store.db
 *.pem
 credentials.json
+settings.json

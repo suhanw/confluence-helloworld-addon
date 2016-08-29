@@ -1,9 +1,9 @@
 {
   "title": {
-    "value": "Confluence Macro Tutorial"
+    "value": "Confluence Hello World Macro Tutorial"
   },
   "context": {
-    "name": "confluence-macro-addon",
+    "name": "confluence-helloworld-addon",
     "product": "confluence"
   },
   "sections": [
@@ -94,4 +94,3 @@
     }
   ]
 }
-
