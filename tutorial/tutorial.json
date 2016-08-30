@@ -89,7 +89,8 @@
       },
       "template": "show-page",
       "context": {
-        "hideInfo": true
+        "hideInfo": true,
+        "page_content" : "<p>This is a new page</p> <p><ac:structured-macro ac:name=\"hello-world-macro\" ac:schema-version=\"1\"/></p>"
       }
     }
   ]
