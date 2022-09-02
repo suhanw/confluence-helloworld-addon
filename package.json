@@ -16,8 +16,6 @@
     "morgan": "^1.10.0",
     "sequelize": "^6.21.4",
     "static-expiry": ">=0.0.5",
-    "jugglingdb-sqlite3": "0.0.5",
-    "urijs": "1.18.1",
-    "async": "2.0.1"
+    "jugglingdb-sqlite3": "0.0.5"
   }
 }
